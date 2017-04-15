@@ -1,0 +1,11 @@
+{
+  "name": "Epoch to Human Time",
+  "description": "Convert Epoch Time to Human Readable Time",
+  "version": "0.1",
+  "author": "Navin Pai",
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["manifest.js"]
+  },
+  "manifest_version": 2
+}
