@@ -1,6 +1,6 @@
 chrome.contextMenus.create({
-    title: "Convert %s to Readable Time", 
-    contexts:["selection"], 
+    title: "Convert %s to Readable Time",
+    contexts:["selection"],
     onclick: function(info, tab) {
         var d = new Date(0);
         if(info.selectionText.length >= 12){
